@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(140, 140, 231);
+}
+div{
+    margin: 20px;
+    border:1px black solid;
+}
+
+.divCheck{
+    margin: 5px;
+    padding: 5px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px black solid;
+}
+.divCheck p,input{
+    margin: 3px;
+    font-size: large;
+}
+
+.contenedorBotones{
+    display: grid;
+    justify-items: center;
+}
+
+.contenedorBotones .inpInversion{
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;    
+}
+
+.contenedorBotones .divInput{
+    display: flex; 
+    border: none; 
+}
+.contenedorBotones .divInput p{
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+.contenedorBotones .divInput .p1{
+    margin-left: 200px;
+    
+}
+
+.contenedorBotones .inpTasa{
+    width: 100px;
+    height: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;  
+     
+}
+
+.contenedorBotones button{
+    height: 50px;
+    width: 100px;
+    background-color: aqua;
+    font-size: large;
+    font-weight: bolder;    
+}
+
+
+.contenedorFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+    
+   
+}
+.contenedorFooter  div{
+    font-weight: bolder;    
+    border: none;  
+}
