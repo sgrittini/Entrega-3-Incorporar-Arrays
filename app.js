@@ -88,10 +88,13 @@ function armarMensaje (array,inversion,inversionInicial,ganaciaNeta)
 {
     let mensaje="";
     //recorrido del array con los objetos guardados
-    for (let index = 0; index < array.length; index++) {
+    /*for (let index = 0; index < array.length; index++) {
         const element = array[index];
         mensaje = `${mensaje}mes: ${element.mes} acumulado: ${formatNumero(element.inversion)} interes=${formatNumero(element.interes)}\n`;
         
+    }*/
+    for (const element of array) {
+        mensaje = `${mensaje}mes: ${element.mes} acumulado: ${formatNumero(element.inversion)} interes=${formatNumero(element.interes)}\n`;   
     }
 
     if (document.getElementById("flagReInvertir").checked) {
