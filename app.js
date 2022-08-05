@@ -93,7 +93,7 @@ function armarMensaje (array,inversion,inversionInicial,ganaciaNeta)
         mensaje = `${mensaje}mes: ${element.mes} acumulado: ${formatNumero(element.inversion)} interes=${formatNumero(element.interes)}\n`;
         
     }*/
-    for (const element of array) {
+    for (const element of array)  {
         mensaje = `${mensaje}mes: ${element.mes} acumulado: ${formatNumero(element.inversion)} interes=${formatNumero(element.interes)}\n`;   
     }
 
